@@ -522,7 +522,7 @@ msgstr "Adăugare grup de pui"
 #: person_bulk.js mobile_ui_incident.js mobile_ui_animal.js mobile_ui_person.js
 #: animal_bulk.js roles.js
 msgid "Add Log"
-msgstr "Adăugați jurnal"
+msgstr "Adăugați înregistrare în jurnal"
 
 #: roles.js
 msgid "Add Lost Animal"
@@ -1517,7 +1517,7 @@ msgstr "O listă opțională, separată prin virgule, de adrese de e-mail către
 
 #: medicalprofile.js
 msgid "An optional label may be applied to each treatment using '{title}={no of days since start of course}'"
-msgstr "O etichetă opțională poate fi aplicată fiecărui tratament folosind „{title}={număr de zile de la începutul cursului}”"
+msgstr "O etichetă opțională poate fi aplicată fiecărui tratament folosind „{title}={număr de zile de la începutul tratamentului}”"
 
 #: medical.js
 msgid "An optional label may be applied with '{label}={days since start}'"
@@ -1577,7 +1577,7 @@ msgstr "Animal (cu persoana care l-a adus)"
 
 #: dbupdate.py
 msgid "Animal - Additional"
-msgstr "Animal - suplimentar"
+msgstr "Animal - câmpuri suplimentare"
 
 #: dbupdate.py
 msgid "Animal - Death"
@@ -1884,7 +1884,7 @@ msgstr "Zona în care s-a pierdut"
 
 #: lostfound.py
 msgid "Area Postcode"
-msgstr "Cod poștal zonă"
+msgstr "Cod poștal al zonei"
 
 #: lostfound.js lostfound_new.js
 msgid "Area found cannot be blank"
@@ -2539,7 +2539,7 @@ msgstr "Brotogeris"
 
 #: animal_find_results.js
 msgid "Brought In"
-msgstr "Adus la"
+msgstr "Data intrării"
 
 #: mobile_ui_animal.js person_links.js animal_new.js
 msgid "Brought In By"
@@ -2939,7 +2939,7 @@ msgstr "Modificare costuri"
 
 #: vaccination.js medical.js
 msgid "Change Date Required"
-msgstr "Data modificării este obligatorie"
+msgstr "Modificați data scadentă"
 
 #: roles.js
 msgid "Change Diets"
@@ -3219,7 +3219,7 @@ msgstr "Scorțișoară"
 
 #: dbupdate.py
 msgid "Cinnamon Tortoiseshell"
-msgstr "Țestoasă scorțișoară"
+msgstr "Scorțișoară țestoasă"
 
 #: search.js
 msgid "Citation"
@@ -3301,7 +3301,7 @@ msgstr "Memento clinică"
 
 #: lookups.py
 msgid "Clinic Statuses"
-msgstr "Stări clinică"
+msgstr "Stări ale programărilor la clinică"
 
 #: product.js onlineforms.js waitinglist.js staff_rota.js stock_level.js
 #: htmltemplates.js incident.js roles.js document_templates.js animal.js
@@ -3932,11 +3932,11 @@ msgstr "Data creării"
 
 #: person_find.js
 msgid "Created Since"
-msgstr "Creat din"
+msgstr "Creat după"
 
 #: reports_querybuilder.js
 msgid "Created since"
-msgstr "Creat din"
+msgstr "Creat după"
 
 #: pos.py
 msgid "Created via POS"
@@ -4001,7 +4001,7 @@ msgstr "Sacrificare"
 
 #: dbupdate.py
 msgid "Curly"
-msgstr "Creț"
+msgstr "Creață"
 
 #: common_widgets.js
 msgid "Current"
@@ -4456,7 +4456,7 @@ msgstr "Formatul implicit pentru codurile de incident este YYMM-XXX"
 
 #: dbupdate.py
 msgid "Deflea"
-msgstr "Deparazitare antipuricii"
+msgstr "Tratament antipurici"
 
 #: pos.js
 msgid "Del"
@@ -5523,7 +5523,7 @@ msgstr "Trimiteți notele incidentului prin e-mail inspectorului"
 
 #: onlineforms.js
 msgid "Email incoming form submissions to this comma separated list of email addresses"
-msgstr "Trimiteți prin e-mail trimiterile de formulare primite către această listă de adrese de e-mail, separate prin virgulă"
+msgstr "Trimiteți prin e-mail formularele completate primite către această listă de adrese de e-mail, separate prin virgulă"
 
 #: movements.js
 msgid "Email link to adopter checkout"
@@ -5567,7 +5567,7 @@ msgstr "Limită de trimiteri prin e-mail (zile)"
 
 #: onlineforms.js
 msgid "Email submissions to"
-msgstr "Trimiteți trimiterile prin e-mail către"
+msgstr "Trimiteți formularele completate prin e-mail către"
 
 #: move_workflow.js move_adopt.js
 msgid "Email template"
@@ -5960,7 +5960,7 @@ msgstr "Câine eschimos"
 
 #: animal.js
 msgid "Estimate"
-msgstr "Estimat"
+msgstr "Estimată"
 
 #: animal.py
 msgid "Estimated age '{0}' is not valid."
@@ -6141,7 +6141,7 @@ msgstr "Expiră în luna următoare"
 
 #: vaccination.js
 msgid "Expired"
-msgstr "Expirat"
+msgstr "Expirate"
 
 #: licence.js
 msgid "Expired in the last month"
@@ -6327,7 +6327,7 @@ msgstr "Bej"
 
 #: dbupdate.py
 msgid "Fawn Tortoiseshell"
-msgstr "Țestoasă fawn"
+msgstr "Bej țestoasă"
 
 #: dbupdate.py
 msgid "FeLV"
@@ -6352,7 +6352,7 @@ msgstr "Taxă"
 
 #: donations.js
 msgid "Fees"
-msgstr "Taxe"
+msgstr "Comisioane"
 
 #: dbupdate.py onlineform.py
 msgid "Female"
@@ -6450,7 +6450,7 @@ msgstr "Căutare animal pierdut"
 
 #: common_personchooser.js
 msgid "Find aco"
-msgstr "Căutați inspector"
+msgstr "Căutați inspector intervenții pe teren"
 
 #: header.js
 msgid "Find an incident"
@@ -6779,11 +6779,11 @@ msgstr "Transfer la cămin temporar"
 
 #: html.py move_foster.js header.js
 msgid "Foster an animal"
-msgstr "Plasare animal în cămin temporar"
+msgstr "Plasați un animal în cămin temporar"
 
 #: move_workflow.js
 msgid "Foster animal(s)"
-msgstr "Dați în cămin temporar animalele"
+msgstr "Dați animalele în cămin temporar"
 
 #: html.py header.js
 msgid "Foster book"
@@ -6829,7 +6829,7 @@ msgstr "Gazdă temporară"
 
 #: common_html.js
 msgid "Fosterer (Active Only)"
-msgstr "Gazdă temporară (doar active)"
+msgstr "Gazdă temporară (doar activă)"
 
 #: common_html.js
 msgid "Fosterer (Space Available)"
@@ -6849,7 +6849,7 @@ msgstr "Animal găsit"
 
 #: dbupdate.py
 msgid "Found Animal - Additional"
-msgstr "Animal găsit - suplimentar"
+msgstr "Animal găsit - câmpuri suplimentare"
 
 #: dbupdate.py
 msgid "Found Animal - Details"
@@ -7579,7 +7579,7 @@ msgstr "Acasă"
 
 #: movements.js
 msgid "Home Checker"
-msgstr "Responsabil verificare domiciliu"
+msgstr "Responsabil cu verificarea domiciliului"
 
 #: waitinglist_results.js mobile_ui_person.js person_new.js
 #: common_personchooser.js person_find_results.js
@@ -7630,7 +7630,7 @@ msgstr "Domiciliu verificat de"
 #: html.py common_html.js lookups.js header_edit_header.js person.js
 #: person_find_results.js
 msgid "Homechecker"
-msgstr "Responsabil verificare domiciliu"
+msgstr "Responsabil cu verificarea domiciliului"
 
 #: mailmerge.js
 msgid "Horizontal Pitch"
@@ -7687,7 +7687,7 @@ msgstr "Restricție IP"
 
 #: users.js
 msgid "IP restriction is a space-separated list of IPv4 addresses or IPv6 prefixes that this user is ONLY permitted to login from."
-msgstr "Restricția IP este o listă de adrese IPv4 sau prefixe IPv6, separate prin spații, de la care acest utilizator are voie să se autentifice DOAR."
+msgstr "Restricția IP este o listă de adrese IPv4 sau prefixe IPv6, separate prin spații, DOAR de la care acest utilizator are voie să se autentifice."
 
 #: dbupdate.py
 msgid "Ibizan Hound"
@@ -7731,11 +7731,11 @@ msgstr "Dacă acest formular are completat câmpul emailaddress la trimitere, tr
 
 #: onlineforms.js
 msgid "If this form has an animalname field, email this submission to the adoption coordinator for the selected animal"
-msgstr "Dacă acest formular are un câmp animalname, trimiteți această trimitere prin e-mail coordonatorului adopțiilor pentru animalul selectat"
+msgstr "Dacă acest formular are un câmp animalname, trimiteți acest formular completat prin e-mail coordonatorului adopțiilor pentru animalul selectat"
 
 #: onlineforms.js
 msgid "If this form has an animalname field, email this submission to the fosterer for the selected animal"
-msgstr "Dacă acest formular are un câmp animalname, trimiteți această trimitere prin e-mail gazdei temporare a animalului selectat"
+msgstr "Dacă acest formular are un câmp animalname, trimiteți acest formular completat prin e-mail gazdei temporare a animalului selectat"
 
 #: person.js
 msgid "If this person is a fosterer, the maximum number of animals they can care for."
@@ -7901,7 +7901,7 @@ msgstr "Incident"
 
 #: dbupdate.py
 msgid "Incident - Additional"
-msgstr "Incident - suplimentar"
+msgstr "Incident - câmpuri suplimentare"
 
 #: dbupdate.py
 msgid "Incident - Citation"
@@ -7990,7 +7990,7 @@ msgstr "Includeți linia de antet CSV"
 
 #: waitinglist_results.js
 msgid "Include Removed"
-msgstr "Include elementele eliminate"
+msgstr "Includeți elementele eliminate"
 
 #: csvexport_people.js csvexport_animals.js
 msgid "Include all photos"
@@ -8602,7 +8602,7 @@ msgstr "Latitudine/Longitudine"
 
 #: search.py options.js
 msgid "Least recently changed"
-msgstr "Cel mai demult modificate"
+msgstr "Cele mai demult modificate"
 
 #: common_validate.js
 msgid "Leave"
@@ -8998,7 +8998,7 @@ msgstr "Jurnale care corespund „{0}”."
 
 #: dbupdate.py
 msgid "Long"
-msgstr "Lung"
+msgstr "Lungă"
 
 #: options.js
 msgid "Long Term"
@@ -9066,7 +9066,7 @@ msgstr "Animal pierdut"
 
 #: dbupdate.py
 msgid "Lost Animal - Additional"
-msgstr "Animal pierdut - suplimentar"
+msgstr "Animal pierdut - câmpuri suplimentare"
 
 #: dbupdate.py
 msgid "Lost Animal - Details"
@@ -9130,7 +9130,7 @@ msgstr "Pierdute/Găsite"
 
 #: main.js
 msgid "Lots of reports installed? Clean up the Reports menu with Settings, Options, Display, Show report menu items in collapsed categories."
-msgstr "Ați instalat multe rapoarte? Curățați meniul Rapoarte din Setări, Opțiuni, Afișare, Afișează elementele meniului de rapoarte în categorii restrânse."
+msgstr "Ați instalat multe rapoarte? Curățați meniul Rapoarte din Setări, Opțiuni, Afișare, Afișați elementele meniului de rapoarte în categorii restrânse."
 
 #: dbupdate.py
 msgid "Lovebird"
@@ -9246,7 +9246,7 @@ msgstr "Harta animalelor pierdute și găsite recent"
 
 #: html.py
 msgid "Map view"
-msgstr "Vedere hartă"
+msgstr "Vizualizare pe hartă"
 
 #: common_widgets.js clinic_calendar.js calendarview.js common.js
 msgid "Mar"
@@ -9286,7 +9286,7 @@ msgstr "Marcați animalele noi ca indisponibile pentru adopție"
 
 #: incident.js
 msgid "Mark responded now"
-msgstr "Marcați ca răspuns acum"
+msgstr "Înregistrați răspunsul acum"
 
 #: donations.js
 msgid "Mark selected payments received"
@@ -9666,7 +9666,7 @@ msgstr "Majoritatea browserelor vă permit să reveniți la o înregistrare vizi
 
 #: search.py options.js
 msgid "Most recently changed"
-msgstr "Cel mai recent modificate"
+msgstr "Cele mai recent modificate"
 
 #: search.py options.js
 msgid "Most relevant"
@@ -9809,7 +9809,7 @@ msgstr "Datele ieșirii intră în conflict cu o ieșire existentă."
 
 #: stock.py
 msgid "Movement must have a date"
-msgstr "Ieșirea trebuie să aibă o dată"
+msgstr "Mișcarea de stoc trebuie să aibă o dată"
 
 #: movement.py
 msgid "Movement numbers must be unique."
@@ -9842,7 +9842,7 @@ msgstr "Mai multe tratamente"
 
 #: medical.js
 msgid "Multiple Treatments with times"
-msgstr "Mai multe tratamente cu ore"
+msgstr "Mai multe tratamente cu ore de administrare"
 
 #: dbupdate.py
 msgid "Munchkin"
@@ -9862,7 +9862,7 @@ msgstr "Animalele mele coordonate"
 
 #: users.js
 msgid "My Fosters"
-msgstr "Căminele mele temporare"
+msgstr "Animalele mele în cămin temporar"
 
 #: mobile.js header.js
 msgid "My Incidents"
@@ -9882,7 +9882,7 @@ msgstr "Contul meu sheltermanager.com"
 
 #: dbupdate.py
 msgid "Mynah"
-msgstr "Mainate"
+msgstr "Maina (graur indian)"
 
 #: dbupdate.py
 msgid "N (Non-Shelter Animal)"
@@ -10580,7 +10580,7 @@ msgstr "În adăpost de {0} zile, cost zilnic {1}, total costuri înregistrate <
 
 #: animal_costs.js
 msgid "On shelter for {0} days. Total cost: {1}"
-msgstr "În adăpost de {0} zile. Cost total: {1}"
+msgstr "De {0} zile în adăpost. Cost total: {1}"
 
 #: reports_querybuilder.js
 msgid "On trial adoption"
@@ -10600,7 +10600,7 @@ msgstr "După semnare, acest document nu mai poate fi editat sau modificat."
 
 #: medical.py
 msgid "One Off"
-msgstr "Unică"
+msgstr "O singură dată"
 
 #: dbupdate.py
 msgid "One-Off"
@@ -10752,7 +10752,7 @@ msgstr "Oriental cu păr scurt"
 
 #: dbupdate.py
 msgid "Oriental Tabby"
-msgstr "Oriental tigrat"
+msgstr "Oriental tărcat"
 
 #: mobile_ui_animal.js animal_find.js person_links.js animal_new.js
 msgid "Original Owner"
@@ -10848,7 +10848,7 @@ msgstr "Peste 5"
 
 #: donations.js
 msgid "Overdue"
-msgstr "Restant"
+msgstr "Restante"
 
 #: automail.py
 msgid "Overdue medical items"
@@ -10994,7 +10994,7 @@ msgstr "Paraziți: antifungic"
 
 #: dbupdate.py
 msgid "Parasite: Flea treatment"
-msgstr "Paraziți: tratament antipuricii"
+msgstr "Paraziți: tratament antipurici"
 
 #: dbupdate.py
 msgid "Parasite: Heartworm"
@@ -11224,7 +11224,7 @@ msgstr "Control veterinar în curs"
 
 #: dbupdate.py
 msgid "Pension"
-msgstr "Pensiune"
+msgstr "Fond de pensii"
 
 #: html.py person_bulk.js roles.js document_templates.js options.js
 msgid "People"
@@ -11298,7 +11298,7 @@ msgstr "Persoană (fără unificare cu cele existente)"
 
 #: dbupdate.py
 msgid "Person - Additional"
-msgstr "Persoană - suplimentar"
+msgstr "Persoană - câmpuri suplimentare"
 
 #: dbupdate.py
 msgid "Person - Couple"
@@ -11334,7 +11334,7 @@ msgstr "Personal"
 
 #: dbupdate.py
 msgid "Peruvian Inca Orchid"
-msgstr "Orhidee incașă peruană"
+msgstr "Peruvian Inca Orchid"
 
 #: dbupdate.py
 msgid "Peruvian Paso"
@@ -11488,7 +11488,7 @@ msgstr "Pointer"
 
 #: options.js
 msgid "Points for being found within 2 weeks of being lost"
-msgstr "Puncte pentru găsirea în termen de 2 săptămâni de la pierdere"
+msgstr "Puncte pentru găsirea în termen de 2 săptămâni de la data pierderii"
 
 #: options.js
 msgid "Points for matching age group"
@@ -11532,7 +11532,7 @@ msgstr "Puncte necesare pentru a apărea în raportul de potriviri"
 
 #: dbupdate.py
 msgid "Polish"
-msgstr "Polonez"
+msgstr "Polish"
 
 #: dbupdate.py
 msgid "Polish Lowland Sheepdog"
@@ -11608,7 +11608,7 @@ msgstr "Completați automat notele noilor fișiere media cu numele fișierului, 
 
 #: csvimport.js
 msgid "Prefix animal codes"
-msgstr "Prefixați codurile animalelor"
+msgstr "Adăugați prefix la codurile animalelor"
 
 #: dbupdate.py
 msgid "Premises"
@@ -11898,7 +11898,7 @@ msgstr "Vaccin antirabic neadministrat"
 
 #: html.py animal_find_results.js
 msgid "RabiesTag"
-msgstr "RabiesTag"
+msgstr "Medalion antirabic"
 
 #: onlineform.js
 msgid "Radio Buttons"
@@ -12015,11 +12015,11 @@ msgstr "Chitanțe trimise prin e-mail"
 
 #: donations.js donation_receive.js
 msgid "Receive"
-msgstr "Primire"
+msgstr "Încasați"
 
 #: html.py header.js donation_receive.js
 msgid "Receive a payment"
-msgstr "Primire plată"
+msgstr "Încasați o plată"
 
 #: common_widgets_comp.js donations.js onlineform_incoming.js
 #: reports_querybuilder.js donation_receive.js
@@ -12112,7 +12112,7 @@ msgstr "Revendicare"
 
 #: html.py header.js move_reclaim.js
 msgid "Reclaim an animal"
-msgstr "Revendicare animal de către proprietar"
+msgstr "Revendicați un animal"
 
 #: move_workflow.js
 msgid "Reclaim animal(s)"
@@ -12285,7 +12285,7 @@ msgstr "Rețineți-mă pe acest computer"
 
 #: mobile_login.js
 msgid "Remember me on this device"
-msgstr "Ține-mă minte pe acest dispozitiv"
+msgstr "Țineți-mă minte pe acest dispozitiv"
 
 #: options.js
 msgid "Reminder Emails"
@@ -12557,7 +12557,7 @@ msgstr "Eliminați câmpul greutate din detaliile animalului"
 
 #: waitinglist_results.js header_edit_header.js
 msgid "Removed"
-msgstr "Eliminat"
+msgstr "Eliminată"
 
 #: reports_querybuilder.js
 msgid "Removed from the list between"
@@ -12657,7 +12657,7 @@ msgstr "Necesită urmărire"
 
 #: wordprocessor.py vaccination.js medical.js test.js
 msgid "Required"
-msgstr "Obligatoriu"
+msgstr "Scadență"
 
 #: medical.py
 msgid "Required date must be a valid date"
@@ -12721,7 +12721,7 @@ msgstr "Rezervați"
 
 #: html.py header.js move_reserve.js
 msgid "Reserve an animal"
-msgstr "Rezervare animal"
+msgstr "Rezervați un animal"
 
 #: move_workflow.js
 msgid "Reserve animal(s)"
@@ -12771,7 +12771,7 @@ msgstr "Respirator"
 
 #: mobile_ui_incident.js
 msgid "Respond"
-msgstr "Răspuns"
+msgstr "Înregistrați răspunsul"
 
 #: roles.js
 msgid "Respond to Incident"
@@ -12894,7 +12894,7 @@ msgstr "Data returnării nu poate fi înainte de data ieșirii."
 
 #: movements.js
 msgid "Return this movement and bring the animal back to the shelter"
-msgstr "Returnați această ieșire și readuceți animalul la adăpost"
+msgstr "Înregistrați returnarea pentru această ieșire și readuceți animalul la adăpost"
 
 #: animal.py movements.js lostfound.js traploan.js
 msgid "Returned"
@@ -13018,7 +13018,7 @@ msgstr "Rottweiler"
 
 #: dbupdate.py
 msgid "Rough"
-msgstr "Aspru"
+msgstr "Aspră"
 
 #: options.js
 msgid "Routing key"
@@ -13243,7 +13243,7 @@ msgstr "Rezultatele căutării pentru „{0}”"
 
 #: animal_find_results.js person_find_results.js
 msgid "Search returned {0} results."
-msgstr "Căutarea a returnat {0} rezultate."
+msgstr "Căutarea a găsit {0} rezultate."
 
 #: options.js
 msgid "Search sort order"
@@ -13331,7 +13331,7 @@ msgstr "Selectați persoana de unificat"
 
 #: reports.js
 msgid "Select recommended"
-msgstr "Selectare recomandate"
+msgstr "Selectați rapoartele recomandate"
 
 #: csvexport_animals.js
 msgid "Selected On-Shelter Animals"
@@ -13427,7 +13427,7 @@ msgstr "Trimiteți adoptatorului e-mailul de finalizare"
 
 #: options.js
 msgid "Send the email on"
-msgstr "Trimiteți e-mailul în"
+msgstr "Trimiteți e-mailul în ziua de"
 
 #: main.py batch.js
 msgid "Send the weekly fosterer email now"
@@ -13523,7 +13523,7 @@ msgstr "Setări"
 
 #: donations.js move_workflow.js
 msgid "Settle Payments"
-msgstr "Decontare plăți"
+msgstr "Decontați plățile"
 
 #: lookups.py html.py person.py lostfound_find_results.js
 #: waitinglist_results.js mobile_ui_addanimal.js mobile_ui_incident.js
@@ -13612,11 +13612,11 @@ msgstr "Animale din adăpost"
 
 #: animal.py animal.js animal_new.js
 msgid "Shelter code cannot be blank"
-msgstr "Codul adăpostului nu poate fi gol"
+msgstr "Codul de adăpost nu poate fi gol"
 
 #: animal.py
 msgid "Shelter code {0} has already been allocated to another animal."
-msgstr "Codul adăpostului {0} a fost deja alocat altui animal."
+msgstr "Codul de adăpost {0} a fost deja alocat altui animal."
 
 #: main.js
 msgid "Shelter stats (all time)"
@@ -13664,7 +13664,7 @@ msgstr "Shih Tzu"
 
 #: dbupdate.py
 msgid "Short"
-msgstr "Scurt"
+msgstr "Scurtă"
 
 #: document_templates.js
 msgid "Show"
@@ -14290,7 +14290,7 @@ msgstr "Murg"
 
 #: dbupdate.py
 msgid "Sorrel Tortoiseshell"
-msgstr "Țestoasă murg"
+msgstr "Murg țestoasă"
 
 #: service_sign_document.js
 msgid "Sorry, this document has already been signed"
@@ -14904,11 +14904,11 @@ msgstr "TT = prima și a doua literă a tipului de animal"
 
 #: dbupdate.py
 msgid "Tabby"
-msgstr "Tigrat"
+msgstr "Tărcat"
 
 #: dbupdate.py
 msgid "Tabby and White"
-msgstr "Tigrat și alb"
+msgstr "Tărcat și alb"
 
 #: common_html.js
 msgid "Table"
@@ -15327,7 +15327,7 @@ msgstr "Acestea sunt valorile care pot fi înregistrate pentru animale pe ecranu
 
 #: batch.js
 msgid "These batch processes are run each night by the system and should not need to be run manually."
-msgstr "Aceste procese în lot sunt rulate automat de sistem în fiecare noapte și nu ar trebui să fie necesar să fie rulate manual."
+msgstr "Aceste procese în lot sunt rulate automat de sistem în fiecare noapte și nu ar trebui rulate manual."
 
 #: move_deceased.js
 msgid "These fields allow you to deduct stock for any euthanasia administered."
@@ -15723,7 +15723,7 @@ msgstr "Anul acesta"
 
 #: dbupdate.py
 msgid "Thoroughbred"
-msgstr "Pur sânge"
+msgstr "Pursânge"
 
 #: common_widgets.js clinic_calendar.js mobile_ui_rota.js calendarview.js
 #: common.js
@@ -15864,7 +15864,7 @@ msgstr "Astăzi"
 
 #: media.js
 msgid "Toggle table/icon view"
-msgstr "Comutare între vizualizarea tabel și pictograme"
+msgstr "Comutare între vizualizarea de tip tabel și cea cu pictograme"
 
 #: cardcom.py
 msgid "Token charge does not support this payment method."
@@ -15944,7 +15944,7 @@ msgstr "Transfer"
 
 #: dbupdate.py animal.js reports_querybuilder.js animal_new.js
 msgid "Transfer In"
-msgstr "Transfer intrat"
+msgstr "Transfer primit"
 
 #: move_transfer.js
 msgid "Transfer To"
@@ -15952,7 +15952,7 @@ msgstr "Transfer către"
 
 #: html.py move_transfer.js header.js
 msgid "Transfer an animal"
-msgstr "Transfer animal"
+msgstr "Transferați un animal"
 
 #: move_workflow.js
 msgid "Transfer animal(s)"
@@ -16832,7 +16832,7 @@ msgstr "Vizualizare raport"
 
 #: incident_new.js accounts.js incident.js person.js animal.js reports.js
 msgid "View Roles"
-msgstr "Vedeți rolurile"
+msgstr "Roluri cu drept de vizualizare"
 
 #: roles.js
 msgid "View Rota"
@@ -16987,7 +16987,7 @@ msgstr "Listă de așteptare"
 
 #: dbupdate.py
 msgid "Waiting List - Additional"
-msgstr "Listă de așteptare - suplimentar"
+msgstr "Listă de așteptare - câmpuri suplimentare"
 
 #: dbupdate.py
 msgid "Waiting List - Details"
@@ -17003,7 +17003,7 @@ msgstr "Contact listă de așteptare"
 
 #: dbupdate.py
 msgid "Waiting List Donation"
-msgstr "Donație listă de așteptare"
+msgstr "Donație pentru lista de așteptare"
 
 #: lookups.py
 msgid "Waiting List Removal"
@@ -17039,7 +17039,7 @@ msgstr "Listă de așteptare"
 
 #: dbupdate.py
 msgid "Waiting list donations"
-msgstr "Donații listă de așteptare"
+msgstr "Donații pentru lista de așteptare"
 
 #: search.py
 msgid "Waiting list entries matching '{0}'."
@@ -17147,7 +17147,7 @@ msgstr "Grosime contur font filigran"
 
 #: media.js
 msgid "Watermark image with name and logo"
-msgstr "Imagine cu filigran cu nume și siglă"
+msgstr "Aplicați filigran cu numele și sigla"
 
 #: options.js
 msgid "Watermark logo X offset"
@@ -17401,7 +17401,7 @@ msgstr "Alb și maro-ficat"
 
 #: dbupdate.py
 msgid "White and Tabby"
-msgstr "Alb și tigrat"
+msgstr "Alb și tărcat"
 
 #: dbupdate.py
 msgid "White and Tan"
@@ -17417,7 +17417,7 @@ msgstr "Faună sălbatică"
 
 #: dbupdate.py
 msgid "Wire-haired Pointing Griffon"
-msgstr "Grifon korthals"
+msgstr "Grifon Korthals"
 
 #: dbupdate.py
 msgid "Wirehaired Terrier"
@@ -17838,7 +17838,7 @@ msgstr "{0} animale actualizate cu succes."
 
 #: header_additional.js
 msgid "{0} cannot be blank"
-msgstr "{0} nu poate fi gol"
+msgstr "Câmpul „{0}” nu poate fi gol"
 
 #: header_edit_header.js
 msgid "{0} fine, paid"
@@ -17978,11 +17978,11 @@ msgstr "{0} {1} în vârstă de {2}"
 
 #: common_html.js
 msgid "{0} {1} animal is marked not for adoption."
-msgstr "{0} {1} animal este marcat ca indisponibil pentru adopție."
+msgstr "Animalul {0} {1} este marcat ca indisponibil pentru adopție."
 
 #: common_html.js
 msgid "{0} {1} animal is not on the shelter."
-msgstr "{0} {1} animal nu se află în adăpost."
+msgstr "Animalul {0} {1} nu se află în adăpost."
 
 #: move_workflow.js
 msgid "{0} {1} has active reservations, they will be cancelled."
@@ -18442,7 +18442,7 @@ msgstr "{plural1} animale se află în adăpost de peste {0} luni"
 
 #: main.js
 msgid "{plural1} animals have holds ending today"
-msgstr "{plural1} animale au blocarea la adopție care expiră astăzi"
+msgstr "{plural1} animale au blocări la adopție care expiră astăzi"
 
 #: main.js
 msgid "{plural1} animals have never had a vaccination of any type"
@@ -18646,7 +18646,7 @@ msgstr "{plural2} de animale se află în adăpost de peste {0} luni"
 
 #: main.js
 msgid "{plural2} animals have holds ending today"
-msgstr "{plural2} de animale au blocarea la adopție care expiră astăzi"
+msgstr "{plural2} de animale au blocări la adopție care expiră astăzi"
 
 #: main.js
 msgid "{plural2} animals have never had a vaccination of any type"
@@ -18850,7 +18850,7 @@ msgstr "{plural3} de animale se află în adăpost de peste {0} luni"
 
 #: main.js
 msgid "{plural3} animals have holds ending today"
-msgstr "{plural3} de animale au blocarea la adopție care expiră astăzi"
+msgstr "{plural3} de animale au blocări la adopție care expiră astăzi"
 
 #: main.js
 msgid "{plural3} animals have never had a vaccination of any type"
