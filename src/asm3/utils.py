@@ -1938,7 +1938,7 @@ def generate_label_pdf(dbo: Database, locale: str, records: Results, papersize: 
             template = "%(name)s\n%(address)s\n%(town)s\n%(county)s\n%(postcode)s"
         elif locale in ( "bs", "bg", "cs", "de", "el", "en_CN", "en_NZ", "es", 
             "es_EC", "en_MX", "es_MX", "fr", "he", "it", "lt", "nb", "nl", "pl", "pt", 
-            "ru", "sk", "sl", "sv", "tr" ):
+            "ro", "ru", "sk", "sl", "sv", "tr" ):
             # European style, postcode precedes city/state on last line
             template = "%(name)s\n%(address)s\n%(postcode)s %(town)s %(county)s"
         ad = template % { "name": rd["OWNERNAME"], "address": rd["OWNERADDRESS"], "town": rd["OWNERTOWN"],

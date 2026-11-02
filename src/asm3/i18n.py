@@ -55,6 +55,12 @@ def PLURAL_SLAVIC(n: int) -> int:
     if n % 10 >= 2 and n % 10 <= 4 and (n % 100 < 10 or n % 100 >= 20): return 1
     return 2
 
+def PLURAL_ROMANIAN(n: int) -> int:
+    """ gettext style plural function for Romanian """
+    if n == 1: return 0
+    if n == 0 or (n % 100 > 0 and n % 100 < 20): return 1
+    return 2
+
 # Maps of locale to currency/date format - this is a map of lists instead of maps
 # to try and keep things readable and on one line
 LM_LANGUAGE = 0
@@ -158,6 +164,7 @@ locale_maps = {
     "pl":       ( "Polish", "Poland", DDMY, "&#x007a;&#x0142;", PLURAL_POLISH, CURRENCY_PREFIX, 2, ",", " ", DST_UK ),
     "pt":       ( "Portuguese", "Portugal", HDMY, EURO, PLURAL_ENGLISH, CURRENCY_PREFIX, 2, ",", " ", DST_UK ),
     "pt_MZ":    ( "Portuguese", "Mozambique", DMY, "MT", PLURAL_ENGLISH, CURRENCY_PREFIX, 2, ",", ".", "" ),
+    "ro":       ( "Romanian", "Romania", DDMY, " lei", PLURAL_ROMANIAN, CURRENCY_SUFFIX, 2, ",", ".", DST_UK ),
     "ru":       ( "Russian", "Russia", DDMY, "&#1056;&#1059;&#1041;.", PLURAL_SLAVIC, CURRENCY_PREFIX, 2, ",", " ", "" ),
     "sk":       ( "Slovakian", "Slovakia", DDMY, EURO, PLURAL_SLAVIC, CURRENCY_PREFIX, 2, ",", " ", DST_UK ),
     "sl":       ( "Slovenian", "Slovenia", DDMY, EURO, PLURAL_SLAVIC, CURRENCY_PREFIX, 2, ",", " ", DST_UK ),

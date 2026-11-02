@@ -143,6 +143,14 @@ const common = {
                 return 2;
             };
         }
+        // romanian
+        if (asm.locale == "ro") {
+            pluralfun = function(n) {
+                if (n == 1) { return 0; }
+                if (n == 0 || (n % 100 > 0 && n % 100 < 20)) { return 1; }
+                return 2;
+            };
+        }
         var text = translations[pluralfun(number)];
         text = text.replace("{plural0}", number);
         text = text.replace("{plural1}", number);
